@@ -1,3 +1,5 @@
+This is a fork. It is recommended to navigate to https://github.com/tamusjroyce/julius.git, which pulls in this project via a submodule. That way julius.js and julius.wasm can be upgraded to the latest version.
+
 JuliusJS
 ====
 
