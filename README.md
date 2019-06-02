@@ -7,7 +7,7 @@ JuliusJS
 
 > A speech recognition library for the web
 
-Try the [live demo.](https://tamusjroyce.github.io/juliusjs/) This has been updated with the latest version of julius according to the date of the files here.
+Try the [live demo.](https://tamusjroyce.github.io/juliusjs/) This has been updated with the latest version of julius according to the date of the files here. This doesn't seem to work unless you are using firefox. There is some work to be done.
 
 JuliusJS is an opinionated port of Julius to JavaScript. <br>
 It __actively listens to the user to transcribe what they are saying__ through a callback.
