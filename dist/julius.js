@@ -121,10 +121,16 @@ var F=[ga,P];var G=[ha,V,Q,ha];var H=[ia,R];return{___errno_location:T,_fflush:_
       bootstrap.call(this, pathToDfa, pathToDict, options);
     };
 
-    Julius.prototype.onfirstpass = function(sentence) { /* noop */ };
-    Julius.prototype.onrecognition = function(sentence, score) { /* noop */ };
+    Julius.prototype.onfirstpass = function(sentence) { 
+		// noop 
+	};
+    Julius.prototype.onrecognition = function(sentence, score) {
+		noop
+	};
     Julius.prototype.onlog = function(obj) { console.log(obj); };
-    Julius.prototype.onfail = function() { /* noop */ };
+    Julius.prototype.onfail = function() {
+		noop
+	};
     Julius.prototype.terminate = function(cb) {
       this.audio.processor.onaudioprocess = null;
       this.recognizer.terminate();
