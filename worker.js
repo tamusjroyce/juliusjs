@@ -7,7 +7,7 @@ var begin = function() { master.postMessage({type: 'begin'}); };
 // console polyfill for emscripted Module
 var console = {};
 
-importScripts('julius.js', 'listener/resampler.js', 'listener/converter.js');
+importScripts('dist/julius.js', 'listener/resampler.js', 'listener/converter.js');
 
 console.log = (function() {
   // The designation used by julius for recognition
