@@ -1,9 +1,13 @@
+This is a fork. It is recommended to navigate to https://github.com/tamusjroyce/julius.git, which pulls in this project via a submodule. That way julius.js and julius.wasm can be upgraded to the latest version.
+
+This is alpha. I am hoping, after all testing is complete, I am able to do a push request into a branch on Julius.
+
 JuliusJS
 ====
 
 > A speech recognition library for the web
 
-Try the [live demo.](http://zzmp.github.io/juliusjs/) 
+Try the [live demo.](https://tamusjroyce.github.io/juliusjs/) This has been updated with the latest version of julius according to the date of the files here. This doesn't seem to work unless you are using firefox. There is some work to be done.
 
 JuliusJS is an opinionated port of Julius to JavaScript. <br>
 It __actively listens to the user to transcribe what they are saying__ through a callback.

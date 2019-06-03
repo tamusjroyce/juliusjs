@@ -17,9 +17,12 @@ mv ./ghpages.html ./index.html
 
 # Push the ghpages
 git add --all
-git config user.name "Zach Pomerantz"
-git config user.email "zmp@umich.edu"
+#git config user.name "Zach Pomerantz"
+#git config user.email "zmp@umich.edu"
+##Temporary...
+git config user.name "tamusjroyce"
+git config user.email "tamusjroyce@hotmail.com"
 git commit -m "(docs-autogen) ${TRAVIS_REPO_SLUG}."
-git push -fq "https://${TOKEN}:x-oauth-basic@github.com/zzmp/juliusjs.git" HEAD:gh-pages
+git push -fq "https://${TOKEN}:x-oauth-basic@github.com/tamusjroyce/juliusjs.git" HEAD:gh-pages
 
 fi
