@@ -4,7 +4,10 @@
   "description": "Development scripts for JuliusJS",
   "main": "js/server.js",
   "scripts": {
-    "make": "../build && update_from_julius.sh",
+    "make": "../build_emcc && update_from_julius.sh",
+    "build": "../build_emcc && update_from_julius.sh",
+    "make-debug": "../build_emcc_debug && update_from_julius.sh",
+    "build-debug": "../build_emcc_debug && update_from_julius.sh",
     "preinstall": "if [ -f '.emscripted_flag' ]; then exit; fi; ./configure_emcc;",
     "prestart": "npm i",
     "start": "./node_modules/.bin/supervisor --watch js,js/listener --extensions js,html,data,dfa,dict --exec node js/server.js",
